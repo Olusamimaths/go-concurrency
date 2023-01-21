@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main_2() {
 	myChannel := make(chan string)
 	anotherChannel := make(chan string)
 
