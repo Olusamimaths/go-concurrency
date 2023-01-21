@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main_3() {
 	charChannel := make(chan string, 3)
 	chars := []string{"a", "b", "c"}
 
