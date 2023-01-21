@@ -22,7 +22,7 @@ func main() {
 	go doWork(done)
 
 	time.Sleep(2 * time.Second)
-	done <- true
+	close(done)
 	fmt.Println("Done doing WORK")
 
 	time.Sleep(3 * time.Hour)
