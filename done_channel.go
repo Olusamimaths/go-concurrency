@@ -16,7 +16,7 @@ func doWork(done <-chan bool) {
 	}
 }
 
-func main() {
+func main_4() {
 	done := make(chan bool)
 
 	go doWork(done)
